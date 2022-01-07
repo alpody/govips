@@ -1,5 +1,6 @@
 package vips
 
+// #cgo CFLAGS: -std=c99
 // #include "header.h"
 import "C"
 import (
